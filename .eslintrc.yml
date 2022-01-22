@@ -1,6 +1,7 @@
 env:
   browser: true
   es2021: true
+  jest: true
 extends:
   - 'plugin:react/recommended'
   - airbnb
@@ -23,3 +24,7 @@ rules:
     - extensions:
         - '.tsx'
   'react/react-in-jsx-scope': off
+  'import/no-extraneous-dependencies':
+    - off
+    - extensions:
+        - '.test.tsx'
