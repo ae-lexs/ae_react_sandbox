@@ -1,5 +1,5 @@
 branches: main
-repositoryUrl: https://github.com/aeairbnb/web_app
+repositoryUrl: https://github.com/ae-lexs/ae_react_sandbox
 plugins:
   - '@semantic-release/commit-analyzer'
   - '@semantic-release/release-notes-generator'
