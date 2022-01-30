@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/ae-lexs/ae_react_sandbox/compare/v1.0.0...v1.1.0) (2022-01-30)
+
+
+### Features
+
+* Update CircleCI badge. ([7a0a40c](https://github.com/ae-lexs/ae_react_sandbox/commit/7a0a40cf3b626e6c99028ecb90419bb5e597c57c))
+
 # 1.0.0 (2022-01-30)
 
 
