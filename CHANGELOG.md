@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/ae-lexs/ae_react_sandbox/compare/v1.2.0...v1.2.1) (2022-01-30)
+
+
+### Bug Fixes
+
+* Fix issues with react-router-dom v6. ([0b1fb58](https://github.com/ae-lexs/ae_react_sandbox/commit/0b1fb58043a475cc329d8a4e667d28c71db54f4b))
+
 # [1.2.0](https://github.com/ae-lexs/ae_react_sandbox/compare/v1.1.0...v1.2.0) (2022-01-30)
 
 
