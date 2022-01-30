@@ -58,15 +58,15 @@ workflows:
       - run_linter:
           filters:
             branches:
-              ignore: main
+              only: main
       - run_tests:
           filters:
             branches:
-              ignore: main
-
-  production:
-    jobs:
+              only: main
       - generate_release:
+          requires:
+            - run_linter
+            - run_tests
           filters:
             branches:
               only: main
