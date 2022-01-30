@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/ae-lexs/ae_react_sandbox/compare/v1.1.0...v1.2.0) (2022-01-30)
+
+
+### Features
+
+* Update the CircleCI development workflow. ([a125d3e](https://github.com/ae-lexs/ae_react_sandbox/commit/a125d3ec2d770bfcab2ee459737a8de8c04b917b))
+
 # [1.1.0](https://github.com/ae-lexs/ae_react_sandbox/compare/v1.0.0...v1.1.0) (2022-01-30)
 
 
