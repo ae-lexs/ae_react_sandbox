@@ -1,6 +1,6 @@
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import { Routes } from './routes';
+import { Routes as RoutePaths } from './routes';
 
 import BoilingCalculator from '../container/boilingCalculator';
 import Clock from '../container/clock';
@@ -10,16 +10,15 @@ import NotFound from '../container/notFound';
 export default function Router() {
   return (
     <BrowserRouter>
-      <Switch>
+      <Routes>
         <Route
-          exact
-          path={Routes.BoilingCalculator}
-          component={BoilingCalculator}
+          path={RoutePaths.BoilingCalculator}
+          element={<BoilingCalculator />}
         />
-        <Route exact path={Routes.Clock} component={Clock} />
-        <Route exact path={Routes.Home} component={Home} />
-        <Route component={NotFound} />
-      </Switch>
+        <Route path={RoutePaths.Clock} element={<Clock />} />
+        <Route path={RoutePaths.Home} element={<Home />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
     </BrowserRouter>
   );
 }
