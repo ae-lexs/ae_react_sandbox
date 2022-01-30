@@ -2,7 +2,7 @@
 
 Mini React Projects.
 
-[![<aeairbnb>](https://circleci.com/gh/aeairbnb/web_app.svg?style=svg)](https://app.circleci.com/pipelines/github/aeairbnb/web_app)
+[![<ae_react_sandbox>](https://circleci.com/gh/ae-lexs/ae_react_sandbox.svg?style=svg)](https://app.circleci.com/pipelines/github/ae-lexs/ae_react_sandbox)
 
 ## Requirements
 
