@@ -1,10 +1,14 @@
 import { ChangeEvent, Component, ReactNode } from 'react';
 
 import BoilingVerdict from '../../component/boilingVerdict';
+import TemperatureInput from '../../component/temperatureInput';
+
+import { Scales, toCelsius, toFahrenheit } from './scales';
 
 interface BoilingCalculatorProps {}
 interface BoilingCalculatorState {
-  temperature: string;
+  celciusTemperature: number;
+  fahrenheitTemperature: number;
 }
 
 class BoilingCalculator extends Component<
@@ -14,27 +18,45 @@ class BoilingCalculator extends Component<
   constructor(props: BoilingCalculatorProps) {
     super(props);
 
-    this.temperatureHandleChange = this.temperatureHandleChange.bind(this);
+    this.celciusTemperatureHandleChange = this.celciusTemperatureHandleChange.bind(this);
+    this.fahrenheitTemperatureHandleChange = this.fahrenheitTemperatureHandleChange.bind(this);
 
     this.state = {
-      temperature: '',
+      celciusTemperature: 0,
+      fahrenheitTemperature: 0,
     };
   }
 
-  temperatureHandleChange(event: ChangeEvent<HTMLInputElement>) {
+  celciusTemperatureHandleChange(event: ChangeEvent<HTMLInputElement>) {
     this.setState({
-      temperature: event.target.value,
+      celciusTemperature: Number(event.target.value),
+      fahrenheitTemperature: toFahrenheit(Number(event.target.value)),
+    });
+  }
+
+  fahrenheitTemperatureHandleChange(event: ChangeEvent<HTMLInputElement>) {
+    this.setState({
+      celciusTemperature: toCelsius(Number(event.target.value)),
+      fahrenheitTemperature: Number(event.target.value),
     });
   }
 
   render(): ReactNode {
-    const { temperature } = this.state;
+    const { celciusTemperature, fahrenheitTemperature } = this.state;
 
     return (
       <fieldset>
-        <legend>Enter temperature in Celsius:</legend>
-        <input value={temperature} onChange={this.temperatureHandleChange} />
-        <BoilingVerdict celsius={parseFloat(temperature)} />
+        <TemperatureInput
+          scale={Scales.Celsius}
+          temperature={celciusTemperature}
+          temperatureHandleChange={this.celciusTemperatureHandleChange}
+        />
+        <TemperatureInput
+          scale={Scales.Fahrenheit}
+          temperature={fahrenheitTemperature}
+          temperatureHandleChange={this.fahrenheitTemperatureHandleChange}
+        />
+        <BoilingVerdict celsius={Number(celciusTemperature)} />
       </fieldset>
     );
   }
