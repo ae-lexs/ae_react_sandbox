@@ -18,8 +18,10 @@ class BoilingCalculator extends Component<
   constructor(props: BoilingCalculatorProps) {
     super(props);
 
-    this.celciusTemperatureHandleChange = this.celciusTemperatureHandleChange.bind(this);
-    this.fahrenheitTemperatureHandleChange = this.fahrenheitTemperatureHandleChange.bind(this);
+    this.celciusTemperatureHandleChange =
+      this.celciusTemperatureHandleChange.bind(this);
+    this.fahrenheitTemperatureHandleChange =
+      this.fahrenheitTemperatureHandleChange.bind(this);
 
     this.state = {
       celciusTemperature: 0,

@@ -6,9 +6,9 @@ export enum Scales {
 }
 
 export function toCelsius(fahrenheitTemperature: number): number {
-  return (fahrenheitTemperature - 32) * 5 / 9;
+  return ((fahrenheitTemperature - 32) * 5) / 9;
 }
 
 export function toFahrenheit(celsiusTemperature: number): number {
-  return (celsiusTemperature * 9 / 5) + 32;
+  return (celsiusTemperature * 9) / 5 + 32;
 }
