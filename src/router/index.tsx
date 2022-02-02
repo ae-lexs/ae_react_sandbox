@@ -4,6 +4,7 @@ import { Routes as RoutePaths } from './routes';
 
 import BoilingCalculator from '../container/boilingCalculator';
 import Clock from '../container/clock';
+import Counter from '../container/counter';
 import Home from '../container/home';
 import NotFound from '../container/notFound';
 
@@ -16,6 +17,7 @@ export default function Router() {
           element={<BoilingCalculator />}
         />
         <Route path={RoutePaths.Clock} element={<Clock />} />
+        <Route path={RoutePaths.Counter} element={<Counter />} />
         <Route path={RoutePaths.Home} element={<Home />} />
         <Route path="*" element={<NotFound />} />
       </Routes>

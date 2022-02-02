@@ -3,5 +3,6 @@
 export enum Routes {
   BoilingCalculator = '/boiling_calculator',
   Clock = '/clock',
+  Counter = '/counter',
   Home = '/',
 }
