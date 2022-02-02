@@ -1,3 +1,15 @@
+# [1.4.0](https://github.com/ae-lexs/ae_react_sandbox/compare/v1.3.0...v1.4.0) (2022-02-02)
+
+
+### Features
+
+* Add @reduxjs/toolkit react-redux packages. ([be9e831](https://github.com/ae-lexs/ae_react_sandbox/commit/be9e831aee4c53c13e56bc5d73d6b582e1e59924))
+* Add counter container. ([25220e5](https://github.com/ae-lexs/ae_react_sandbox/commit/25220e5d059b37716ca114b12494f9686b5345e9))
+* Add counterSlice. ([4249cee](https://github.com/ae-lexs/ae_react_sandbox/commit/4249ceeb4d594154b1ab03aa87e65a3e6b7713c8))
+* Implement incrementByAmount action in Counter container. ([7303c6d](https://github.com/ae-lexs/ae_react_sandbox/commit/7303c6df94aee602afe998cbf45997396f87b94d))
+* Refactor counterSlice with typescript consistency changes. ([ab2461e](https://github.com/ae-lexs/ae_react_sandbox/commit/ab2461e2530db57589c1e4a9ff61f5b159de9518))
+* Set up redux store. ([1b55d13](https://github.com/ae-lexs/ae_react_sandbox/commit/1b55d1334971672a3058470468f5433e1064dd37))
+
 # [1.3.0](https://github.com/ae-lexs/ae_react_sandbox/compare/v1.2.1...v1.3.0) (2022-02-02)
 
 
