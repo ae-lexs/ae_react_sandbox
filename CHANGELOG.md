@@ -1,3 +1,11 @@
+# [1.3.0](https://github.com/ae-lexs/ae_react_sandbox/compare/v1.2.1...v1.3.0) (2022-02-02)
+
+
+### Features
+
+* Remove redux store. ([359ffcb](https://github.com/ae-lexs/ae_react_sandbox/commit/359ffcb84795d9e06cf86bf2c6397a0c8b5fd5b8))
+* Use the TemperatureInput component into the BoilingCalculator container. ([c84269e](https://github.com/ae-lexs/ae_react_sandbox/commit/c84269eb76db169dd82748a958aa0748271e2bac))
+
 ## [1.2.1](https://github.com/ae-lexs/ae_react_sandbox/compare/v1.2.0...v1.2.1) (2022-01-30)
 
 
