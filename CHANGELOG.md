@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/ae-lexs/ae_react_sandbox/compare/v1.4.0...v1.5.0) (2022-02-06)
+
+
+### Features
+
+* Set up material UI. ([a175206](https://github.com/ae-lexs/ae_react_sandbox/commit/a1752067c3379d1134fbb9b91205fc7beaf3fc02))
+
 # [1.4.0](https://github.com/ae-lexs/ae_react_sandbox/compare/v1.3.0...v1.4.0) (2022-02-02)
 
 
