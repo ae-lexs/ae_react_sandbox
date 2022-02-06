@@ -8,6 +8,8 @@ import Counter from '../container/counter';
 import Home from '../container/home';
 import NotFound from '../container/notFound';
 
+import './normalize.css';
+
 export default function Router() {
   return (
     <BrowserRouter>
