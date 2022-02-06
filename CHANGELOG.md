@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/ae-lexs/ae_react_sandbox/compare/v1.5.0...v1.6.0) (2022-02-06)
+
+
+### Features
+
+* Add styles to the counter. ([90d51ea](https://github.com/ae-lexs/ae_react_sandbox/commit/90d51ea99e68b5ea40e97ecf38115eeca6e90e11))
+
 # [1.5.0](https://github.com/ae-lexs/ae_react_sandbox/compare/v1.4.0...v1.5.0) (2022-02-06)
 
 
