@@ -1,4 +1,4 @@
-import { ChangeEvent, Component, ReactNode } from 'react';
+import React, { ChangeEvent, Component, ReactNode } from 'react';
 
 import BoilingVerdict from '../../component/boilingVerdict';
 import TemperatureInput from '../../component/temperatureInput';

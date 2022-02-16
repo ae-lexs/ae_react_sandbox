@@ -1,3 +1,5 @@
+import React from 'react';
+
 import { Scales } from '../../container/boilingCalculator/scales';
 
 interface TemperatureInputProps {
