@@ -23,7 +23,6 @@ rules:
     - error
     - extensions:
         - '.tsx'
-  'react/react-in-jsx-scope': off
   'import/no-extraneous-dependencies':
     - off
     - extensions:
