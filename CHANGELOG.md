@@ -1,3 +1,17 @@
+# [1.7.0](https://github.com/ae-lexs/ae_react_sandbox/compare/v1.6.0...v1.7.0) (2022-02-16)
+
+
+### Bug Fixes
+
+* Import React in all the files with .tsx extension. ([9ceb200](https://github.com/ae-lexs/ae_react_sandbox/commit/9ceb20087263c55f62ed94aef1c4fd3cbad8297b))
+
+
+### Features
+
+* Add normilize.css file. ([4b5c4b8](https://github.com/ae-lexs/ae_react_sandbox/commit/4b5c4b823d919f96a17f40524c305fecc7c5a4cd))
+* Enable react/react-in-jsx-scope rule. ([197eec0](https://github.com/ae-lexs/ae_react_sandbox/commit/197eec0e2626f4628247e940563b11a46b2e3be7))
+* Remove MaterialUI. ([2c54984](https://github.com/ae-lexs/ae_react_sandbox/commit/2c54984ca48be25f2006000a9667209daca019ce))
+
 # [1.6.0](https://github.com/ae-lexs/ae_react_sandbox/compare/v1.5.0...v1.6.0) (2022-02-06)
 
 
